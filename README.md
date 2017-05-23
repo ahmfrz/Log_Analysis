@@ -29,7 +29,6 @@
  10. Run command 'python log_analysis_report.py'
 
 ### Output
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 What are the most popular three articles of all time?
 "Candidate is jerk, alleges rival"--338647 views
 "Bears love berries, alleges bear"--253801 views
@@ -45,7 +44,6 @@ Markoff Chaney--84557 views
 
 On which days did more than 1% of requests lead to errors?
 July, 17 2016--2.26% errors
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## How to Contribute
 

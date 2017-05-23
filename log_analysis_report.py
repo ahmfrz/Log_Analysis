@@ -84,8 +84,6 @@ def error_status():
         print item[0].strftime("%B, %d %Y") + '--' + str(item[1]) + "% errors"
     return result
 
-print "----------------------------------------------------------------"
 most_popular_articles()
 most_popular_author()
 error_status()
-print "----------------------------------------------------------------"
