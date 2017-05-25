@@ -33,9 +33,13 @@ def db_connect(dbname='news'):
     """Connects to the PostgreSQL database and create cursor.
     Returns a database connection and cursor"""
 
-    connection = psycopg2.connect("dbname=%s" % dbname)
-    cursor = connection.cursor()
-    return connection, cursor
+    try:
+        connection = psycopg2.connect("dbname=%s" % dbname)
+        cursor = connection.cursor()
+        return connection, cursor
+    except Exception as e:
+        print "Database connection failed"
+        raise e
 
 
 def db_close(connection):
